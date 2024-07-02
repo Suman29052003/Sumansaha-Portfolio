@@ -1,5 +1,11 @@
 import React from 'react'
 import peronPointingFinger from '../../public/person-pointing-finger.png'
+import facebookIcon from '../../public/facebook.png'
+import instagramIcon from '../../public/instagram.png'
+import linkedinIcon from '../../public/linkedin.png'
+import githubIcon from '../../public/github (1).png'
+import twitterIcon from '../../public/twitter.png'
+
 
 const About = () => {
   return (
@@ -25,11 +31,11 @@ const About = () => {
               <div className="line w-[200px] md:w-16 bg-slate-300 h-1"></div>
               <div className=""><span className="text-lg font-light">Follow me</span></div>
               <div className="icons flex gap-4 invert-[40%]">
-                <a href="https://www.facebook.com/profile.php?id=100015689491741" className=""><img src="/public/facebook.png" alt="" className="" /></a>
-                <a href="https://www.instagram.com/sum4.an/" className=""><img src="/public/instagram.png" alt="" className="" /></a>
-                <a href="https://www.linkedin.com/in/suman-saha-225958291/" className=""><img src="/public/linkedin.png" alt="" className="" /></a>
-                <a href="https://github.com/Suman29052003" className=""><img src="/public/github (1).png" alt="" className="" /></a>
-                <a href="https://x.com/Dev_Suman07" className=""><img src="/public/twitter.png" alt="" className="" /></a>
+                <a href="https://www.facebook.com/profile.php?id=100015689491741" className=""><img src={facebookIcon} alt="" className="" /></a>
+                <a href="https://www.instagram.com/sum4.an/" className=""><img src={instagramIcon} alt="" className="" /></a>
+                <a href="https://www.linkedin.com/in/suman-saha-225958291/" className=""><img src={linkedinIcon} alt="" className="" /></a>
+                <a href="https://github.com/Suman29052003" className=""><img src={githubIcon} alt="" className="" /></a>
+                <a href="https://x.com/Dev_Suman07" className=""><img src={twitterIcon} alt="" className="" /></a>
               </div>
           </div>
         </div>
