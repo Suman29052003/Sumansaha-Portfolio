@@ -1,4 +1,5 @@
 import React from 'react'
+import peronPointingFinger from '../../public/person-pointing-finger.png'
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       <div className="w-[80%] grid grid-cols-1  md:grid-cols-2">
         <div className="image-container w-full flex ">
             <figure className="w-full relative bottom-0 flex md:items-end items-center justify-center md:top-4">
-                <img src="/public/person-pointing-finger.png" alt="" className="w-[70%]" />
+                <img src={peronPointingFinger} alt="" className="w-[70%]" />
             </figure>
         </div>
         <div className="text-container flex justify-center items-left gap-4 flex-col">
