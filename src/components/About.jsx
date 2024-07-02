@@ -9,7 +9,7 @@ import twitterIcon from '../../public/twitter.png'
 
 const About = () => {
   return (
-    <section className='w-full min-h-[60vh] bg-white flex justify-center items-center pt-8 pb-4' id='about '>
+    <section className='w-full min-h-[60vh] bg-white flex justify-center items-center pt-8 pb-4' id='about'>
       <div className="w-[80%] grid grid-cols-1  md:grid-cols-2">
         <div className="image-container w-full flex ">
             <figure className="w-full relative bottom-0 flex md:items-end items-center justify-center md:top-4">
