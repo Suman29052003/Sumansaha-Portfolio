@@ -14,7 +14,7 @@ const Skills = () => {
     <section className='w-full min-h-[60vh] bg-[#f8f9fd] flex justify-center items-center pt-8 pb-8' id='skills'>
       <div className="w-[80%] grid md:grid-cols-2 gap-8">
         <div className="text-container w-full gap-4 flex flex-col justify-center items-left">
-            <h2 className="text-[#0285ff] text-3xl font-semibold">SKILLSET</h2>
+            <h2 className="text-[#0285ff] text-3xl font-semibold ">SKILLSET</h2>
             <p className="text-3xl font-medium">Creative Skills Experience on Few Area</p>
             <p className="leading-8 text-md font-light text-justify md:text-pretty text-gray-500">Creative and skilled Full Stack Developer with experience in JavaScript, React, Node.js, and MongoDB. Proficient in developing dynamic, user-friendly web applications. Passionate about solving complex problems and optimizing performance. Committed to staying updated with industry trends to deliver cutting-edge solutions.</p>
         </div>

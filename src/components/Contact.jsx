@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <section id='contact' className='w-full min-h-[40vh] md:min-h-[60vh] bg-[#232d39] flex flex-col items-center justify-center'>
         <div className="w-[80%] flex items-center justify-center flex-col gap-3">
-            <spn className="text-gray-300 font-semibold">CONTACT ME</spn>
+            <span className="text-gray-300 font-semibold ">CONTACT ME</span>
             <h1 className="text-white text-2xl md:text-5xl font-medium text-center">Get A Project? Let's Talk!</h1>
         </div>
 
