@@ -38,42 +38,42 @@ const Skills = () => {
             <div className="js hover:scale-105 duration-200 cursor-pointer">
             <span className="flex py-2 gap-2 text-sm font-medium"><img src={jsIcon} alt="" className="w-[24px]" />JAVASCRIPT</span>
             <div className="w-[80%] h-2 bg-slate-200 rounded-full">
-                    <div className="bg-[#83bdf5] w-[60%] h-2 rounded-full"></div>
+                    <div className="bg-[#83bdf5] w-[70%] h-2 rounded-full"></div>
                 </div>
             </div>
 
             <div className="react hover:scale-105 duration-200 cursor-pointer">
             <span className="flex py-2 gap-2 text-sm font-medium"><img src={reactIcon} alt="" className="w-[24px]" />REACT JS</span>
             <div className="w-[80%] h-2 bg-slate-200 rounded-full">
-                    <div className="bg-[#83bdf5] w-[65%] h-2 rounded-full"></div>
+                    <div className="bg-[#83bdf5] w-[75%] h-2 rounded-full"></div>
                 </div>
             </div>
 
             <div className="tailwind hover:scale-105 duration-200 cursor-pointer">
             <span className="flex py-2 gap-2 text-sm font-medium"><img src={tailwindIcon} alt="" className="w-[24px]" />TAILWIND CSS</span>
             <div className="w-[80%] h-2 bg-slate-200 rounded-full">
-                    <div className="bg-[#83bdf5] w-[70%] h-2 rounded-full"></div>
+                    <div className="bg-[#83bdf5] w-[80%] h-2 rounded-full"></div>
                 </div>
             </div>
 
             <div className="node hover:scale-105 duration-200 cursor-pointer">
             <span className="flex py-2 gap-2 text-sm font-medium"><img src={nodeIcon} alt="" className="w-[24px]" />NODE JS</span>
             <div className="w-[80%] h-2 bg-slate-200 rounded-full">
-                    <div className="bg-[#83bdf5] w-[68%] h-2 rounded-full"></div>
+                    <div className="bg-[#83bdf5] w-[76%] h-2 rounded-full"></div>
                 </div>
             </div>
 
             <div className="express hover:scale-105 duration-200 cursor-pointer">
             <span className="flex py-2 gap-2 text-sm font-medium"><img src={expressIcon} alt="" className="w-[24px]" />EXPRESS JS</span>
             <div className="w-[80%] h-2 bg-slate-200 rounded-full">
-                    <div className="bg-[#83bdf5] w-[55%] h-2 rounded-full"></div>
+                    <div className="bg-[#83bdf5] w-[70%] h-2 rounded-full"></div>
                 </div>
             </div>
 
             <div className="mongodb hover:scale-105 duration-200 cursor-pointer">
             <span className="flex py-2 gap-2 text-sm font-medium"><img src={mongodbIcon} alt="" className="w-[24px]" />MONGO DB</span>
             <div className="w-[80%] h-2 bg-slate-200 rounded-full">
-                    <div className="bg-[#83bdf5] w-[50%] h-2 rounded-full"></div>
+                    <div className="bg-[#83bdf5] w-[70%] h-2 rounded-full"></div>
                 </div>
             </div>
 
