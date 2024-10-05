@@ -19,7 +19,7 @@ const Home = () => {
     };
   }, []);
   return (
-    <section className="w-full bg-gradient-to-r to-[#dce5ed] from-[#eff5fb] z-10 min-h-[60vh] md:min-h-[80vh]  flex items-center justify-center pb-[3rem] md:pb-[6rem] pt-[5rem] md:pt-[8rem]" id="home">
+    <section className="w-full bg-gradient-to-r to-[#dce5ed] from-[#eff5fb] z-10 min-h-[60vh] md:min-h-[80vh]  flex items-center justify-center pb-[3rem] md:pb-[6rem] pt-[5rem] md:pt-[8rem] scroll-smooth" id="home">
       <div className="w-[80%] grid md:grid-cols-2 gap-8">
 
        <div className="introduction w-full flex flex-col items-left justify-center gap-1 md:gap-2 md:row-start-1 row-start-2">
