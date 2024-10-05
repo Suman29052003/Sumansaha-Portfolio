@@ -8,7 +8,7 @@ const Home = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['a <i>Web</i> Developer', '&amp; a Designer.'],
+      strings: ['a <i>Web</i> Developer', 'a Designer' , '&amp; a Blockchain Developer'],
       typeSpeed: 50,
       loop:true
     });
@@ -29,7 +29,7 @@ const Home = () => {
           <p className="text-sm font-light leading-6 md:text-lg">Hi, I' m Suman a freelance web designer from India. i help brands turns their ideas into high Quality products.</p>
 
           <div className="download-cv bg-[#285fff] w-fit p-4 my-2 md:p-4 rounded-2xl text-white font-semibold">
-        <a href={resume} download="Suman_CV.pdf">
+        <a href={resume} download="Resume_Suman.pdf">
           <button>Download CV</button>
         </a>
       </div>

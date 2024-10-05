@@ -8,6 +8,7 @@ import nodeIcon from '../../public/node-icon.png'
 import expressIcon from '../../public/express-icon.png'
 import mongodbIcon from '../../public/mongo-icon.jpg'
 import githubIcon from '../../public/github-icon.png'
+import solidityIcon from '../../public/solidity-icon.png'
 
 const Skills = () => {
   return (
@@ -72,6 +73,13 @@ const Skills = () => {
 
             <div className="mongodb hover:scale-105 duration-200 cursor-pointer">
             <span className="flex py-2 gap-2 text-sm font-medium"><img src={mongodbIcon} alt="" className="w-[24px]" />MONGO DB</span>
+            <div className="w-[80%] h-2 bg-slate-200 rounded-full">
+                    <div className="bg-[#83bdf5] w-[70%] h-2 rounded-full"></div>
+                </div>
+            </div>
+
+            <div className="mongodb hover:scale-105 duration-200 cursor-pointer">
+            <span className="flex py-2 gap-2 text-sm font-medium"><img src={solidityIcon} alt="" className="w-[24px]" />Solidity</span>
             <div className="w-[80%] h-2 bg-slate-200 rounded-full">
                     <div className="bg-[#83bdf5] w-[70%] h-2 rounded-full"></div>
                 </div>
