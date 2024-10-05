@@ -11,7 +11,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
-    <>
+    <div className="scroll-smooth">
       <Navbar />
       <Home />
       <About />
@@ -21,7 +21,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Analytics />
-    </>
+    </div>
   );
 };
 
